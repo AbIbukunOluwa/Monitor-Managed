@@ -12,7 +12,6 @@ Python script to help you change your wireless mode back and forth
 
 This script will help in your wifi penetration tasks. Move swiftly back and forth between monitor mode and managed as you test.
 
-Note that this script is best run using python2 as python3 will have issues with running the code
 
 
 usage:
@@ -25,4 +24,4 @@ usage:
   
   
 use case:
-python2 wireless.py -i eth0 -m monitor
+$ sudo python3 wireless.py -i eth0 -m monitor
